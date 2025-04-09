@@ -1,0 +1,40 @@
+2025-04-08 20:12:14.644 CST [50448] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-08 20:12:14.646 CST [50448] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-08 20:12:14.646 CST [50448] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-08 20:12:14.647 CST [50448] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-08 20:12:14.649 CST [50449] LOG:  database system was shut down at 2025-04-08 20:11:50 CST
+2025-04-08 20:12:14.652 CST [50448] LOG:  database system is ready to accept connections
+2025-04-08 20:12:32.689 CST [50479] FATAL:  database "pdf_rag_history" does not exist
+2025-04-08 20:14:46.596 CST [50525] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/pgvector.control": No such file or directory
+2025-04-08 20:14:46.596 CST [50525] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pgvector;
+2025-04-08 20:19:26.544 CST [51083] FATAL:  role "postgres" does not exist
+2025-04-08 20:20:21.000 CST [51096] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/pgvector.control": No such file or directory
+2025-04-08 20:20:21.000 CST [51096] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pgvector;
+2025-04-08 20:23:04.861 CST [52801] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/pgvector.control": No such file or directory
+2025-04-08 20:23:04.861 CST [52801] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pgvector;
+2025-04-08 20:43:29.110 CST [53979] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/pgvector.control": No such file or directory
+2025-04-08 20:43:29.110 CST [53979] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pgvector;
+2025-04-08 20:45:13.836 CST [54396] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/pgvector.control": No such file or directory
+2025-04-08 20:45:13.836 CST [54396] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pgvector;
+2025-04-08 21:27:20.046 CST [57025] WARNING:  there is already a transaction in progress
+2025-04-08 21:27:20.047 CST [57025] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/vector.control": No such file or directory
+2025-04-08 21:27:20.047 CST [57025] STATEMENT:  BEGIN;SELECT pg_advisory_xact_lock(1573678846307946496);CREATE EXTENSION IF NOT EXISTS vector;COMMIT;
+2025-04-08 21:28:33.200 CST [57133] WARNING:  there is already a transaction in progress
+2025-04-08 21:28:33.200 CST [57133] ERROR:  could not open extension control file "/opt/homebrew/share/postgresql@14/extension/vector.control": No such file or directory
+2025-04-08 21:28:33.200 CST [57133] STATEMENT:  BEGIN;SELECT pg_advisory_xact_lock(1573678846307946496);CREATE EXTENSION IF NOT EXISTS vector;COMMIT;
+2025-04-08 21:33:38.570 CST [57631] WARNING:  there is already a transaction in progress
+2025-04-08 21:33:38.571 CST [57631] WARNING:  there is no transaction in progress
+2025-04-08 21:35:17.546 CST [57697] WARNING:  there is already a transaction in progress
+2025-04-08 21:35:17.547 CST [57697] WARNING:  there is no transaction in progress
+2025-04-08 21:44:33.131 CST [58237] WARNING:  there is already a transaction in progress
+2025-04-08 21:44:33.132 CST [58237] WARNING:  there is no transaction in progress
+2025-04-08 22:11:58.587 CST [58717] WARNING:  there is already a transaction in progress
+2025-04-08 22:11:58.588 CST [58717] WARNING:  there is no transaction in progress
+2025-04-08 22:33:44.368 CST [59644] WARNING:  there is already a transaction in progress
+2025-04-08 22:33:44.369 CST [59644] WARNING:  there is no transaction in progress
+2025-04-09 00:14:29.568 CST [62318] WARNING:  there is already a transaction in progress
+2025-04-09 00:14:29.570 CST [62318] WARNING:  there is no transaction in progress
+2025-04-09 00:21:04.675 CST [50448] LOG:  received smart shutdown request
+2025-04-09 00:21:04.679 CST [50448] LOG:  background worker "logical replication launcher" (PID 50455) exited with exit code 1
+2025-04-09 00:21:04.679 CST [50450] LOG:  shutting down
+2025-04-09 00:21:04.696 CST [50448] LOG:  database system is shut down
