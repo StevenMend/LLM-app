@@ -139,7 +139,7 @@ Question: {question}
 ANSWER_PROMPT = ChatPromptTemplate.from_template(template)
 
 from langchain_community.chat_models import ChatOllama
-llm = ChatOllama(model="mistral", temperature=0, streaming=False)
+llm = ChatOllama(model="mistral", temperature=0, streaming=True)
 resp = llm.invoke("¿Cuál es la capital de Francia?")
 print(resp.content)
 class RagInput(TypedDict):

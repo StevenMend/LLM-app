@@ -25,13 +25,6 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 text_splitter = SemanticChunker(embeddings=embeddings)
 chunks = text_splitter.split_documents(docs)
 
-# # Conectar a vector store
-# vector_store = PGVector(
-#     collection_name="pdf_vectors_v1",
-#     connection_string="postgresql+psycopg://stevenmendez:nevetsmendez..01.0205@localhost:5432/pdf_rag_history",
-#     embedding_function=embeddings,
-# )
-
 postgres_url = os.getenv("POSTGRES_URL") 
 
 # ...
